@@ -1,0 +1,25 @@
+{
+  "name": "mqtt-broker-server",
+  "version": "1.0.0",
+  "description": "스마트 그린 캠퍼스의 데이터를 관리하는 서비스를 만들어 봅니다.",
+  "main": "mqtt-to-server/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jinuk-Lee/smart-green-campus.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jinuk-Lee/smart-green-campus/issues"
+  },
+  "homepage": "https://github.com/Jinuk-Lee/smart-green-campus#readme",
+  "dependencies": {
+    "http": "^0.0.1-security",
+    "mqtt": "^4.3.7",
+    "node-rest-client": "^3.1.1"
+  }
+}
