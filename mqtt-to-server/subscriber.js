@@ -26,7 +26,7 @@ subclient.on('message', function (topic, message) {
 
     console.log(sensors);
     args.sensor = sensors.toString('utf-8');
-   console.log(args);
+  // console.log(args);
     // console.log(`key:${Object.keys(data)}, value:${Object.values(data)}`);
     // client.post("http://192.168.10.171:8080/api/sensors", args, function (data, response) {
     // js object로 파싱된 객체
