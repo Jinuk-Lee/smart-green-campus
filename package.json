@@ -18,8 +18,10 @@
   },
   "homepage": "https://github.com/Jinuk-Lee/smart-green-campus#readme",
   "dependencies": {
+    "@nestjs/microservices": "^9.1.6",
     "http": "^0.0.1-security",
     "mqtt": "^4.3.7",
-    "node-rest-client": "^3.1.1"
+    "node-rest-client": "^3.1.1",
+    "save": "^2.9.0"
   }
 }
